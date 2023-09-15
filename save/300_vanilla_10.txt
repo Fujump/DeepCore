@@ -1,0 +1,240 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Loading target model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/all_defense_300
+['epoch', 'model_state_dict', 'opt_state_dict']
+Loading shadow model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/seed1000/shadow
+MIA via correctness, the attack acc is 0.654, with train acc 1.000 and test acc 0.692
+MIA via confidence (pre-class threshold): the attack acc is 0.805
+MIA via entropy (pre-class threshold): the attack acc is 0.778
+MIA via modified entropy (pre-class threshold): the attack acc is 0.809
+MIA via loss (pre-class threshold): the attack acc is 0.805
+MIA via confidence: the attack auc is 0.834, ap is 0.706
+MIA via entropy: the attack auc is 0.830, ap is 0.702
+MIA via modified entropy: the attack auc is 0.836, ap is 0.707
+MIA via loss: the attack auc is 0.834, ap is 0.706
+MIA via grad_wrt_x_l1 ACC (general threshold): the attack acc is 0.828
+MIA via grad_wrt_x_l2 ACC (general threshold): the attack acc is 0.817
+MIA via grad_wrt_w_l1 ACC (general threshold): the attack acc is 0.783
+MIA via grad_wrt_w_l2 ACC (general threshold): the attack acc is 0.771
+MIA via grad_wrt_x_l1 AUC: the attack auc is 0.835, ap is 0.706
+MIA via grad_wrt_x_l2 AUC: the attack auc is 0.835, ap is 0.706
+MIA via grad_wrt_w_l1 AUC: the attack auc is 0.837, ap is 0.708
+MIA via grad_wrt_w_l2 AUC: the attack auc is 0.837, ap is 0.708
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Loading target model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/all_defense_300
+['epoch', 'model_state_dict', 'opt_state_dict']
+Loading shadow model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/seed1000/shadow
+MIA via correctness, the attack acc is 0.653, with train acc 1.000 and test acc 0.694
+MIA via confidence (pre-class threshold): the attack acc is 0.798
+MIA via entropy (pre-class threshold): the attack acc is 0.780
+MIA via modified entropy (pre-class threshold): the attack acc is 0.805
+MIA via loss (pre-class threshold): the attack acc is 0.798
+MIA via confidence: the attack auc is 0.808, ap is 0.675
+MIA via entropy: the attack auc is 0.803, ap is 0.673
+MIA via modified entropy: the attack auc is 0.809, ap is 0.677
+MIA via loss: the attack auc is 0.808, ap is 0.675
+MIA via grad_wrt_x_l1 ACC (general threshold): the attack acc is 0.819
+MIA via grad_wrt_x_l2 ACC (general threshold): the attack acc is 0.811
+MIA via grad_wrt_w_l1 ACC (general threshold): the attack acc is 0.779
+MIA via grad_wrt_w_l2 ACC (general threshold): the attack acc is 0.766
+MIA via grad_wrt_x_l1 AUC: the attack auc is 0.807, ap is 0.676
+MIA via grad_wrt_x_l2 AUC: the attack auc is 0.807, ap is 0.676
+MIA via grad_wrt_w_l1 AUC: the attack auc is 0.809, ap is 0.677
+MIA via grad_wrt_w_l2 AUC: the attack auc is 0.810, ap is 0.678
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Loading target model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/all_defense_300
+['epoch', 'model_state_dict', 'opt_state_dict']
+Loading shadow model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/seed1000/shadow
+MIA via correctness, the attack acc is 0.653, with train acc 1.000 and test acc 0.694
+MIA via confidence (pre-class threshold): the attack acc is 0.777
+MIA via entropy (pre-class threshold): the attack acc is 0.760
+MIA via modified entropy (pre-class threshold): the attack acc is 0.791
+MIA via loss (pre-class threshold): the attack acc is 0.777
+MIA via confidence: the attack auc is 0.805, ap is 0.674
+MIA via entropy: the attack auc is 0.800, ap is 0.671
+MIA via modified entropy: the attack auc is 0.806, ap is 0.676
+MIA via loss: the attack auc is 0.805, ap is 0.674
+MIA via grad_wrt_x_l1 ACC (general threshold): the attack acc is 0.809
+MIA via grad_wrt_x_l2 ACC (general threshold): the attack acc is 0.797
+MIA via grad_wrt_w_l1 ACC (general threshold): the attack acc is 0.758
+MIA via grad_wrt_w_l2 ACC (general threshold): the attack acc is 0.742
+MIA via grad_wrt_x_l1 AUC: the attack auc is 0.804, ap is 0.674
+MIA via grad_wrt_x_l2 AUC: the attack auc is 0.804, ap is 0.674
+MIA via grad_wrt_w_l1 AUC: the attack auc is 0.806, ap is 0.675
+MIA via grad_wrt_w_l2 AUC: the attack auc is 0.807, ap is 0.676
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Loading target model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/all_defense_300
+['epoch', 'model_state_dict', 'opt_state_dict']
+Loading shadow model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/seed1000/shadow
+MIA via correctness, the attack acc is 0.653, with train acc 1.000 and test acc 0.694
+MIA via confidence (pre-class threshold): the attack acc is 0.793
+MIA via entropy (pre-class threshold): the attack acc is 0.770
+MIA via modified entropy (pre-class threshold): the attack acc is 0.794
+MIA via loss (pre-class threshold): the attack acc is 0.793
+MIA via confidence: the attack auc is 0.805, ap is 0.671
+MIA via entropy: the attack auc is 0.800, ap is 0.669
+MIA via modified entropy: the attack auc is 0.806, ap is 0.673
+MIA via loss: the attack auc is 0.805, ap is 0.671
+MIA via grad_wrt_x_l1 ACC (general threshold): the attack acc is 0.809
+MIA via grad_wrt_x_l2 ACC (general threshold): the attack acc is 0.796
+MIA via grad_wrt_w_l1 ACC (general threshold): the attack acc is 0.770
+MIA via grad_wrt_w_l2 ACC (general threshold): the attack acc is 0.756
+MIA via grad_wrt_x_l1 AUC: the attack auc is 0.804, ap is 0.671
+MIA via grad_wrt_x_l2 AUC: the attack auc is 0.804, ap is 0.672
+MIA via grad_wrt_w_l1 AUC: the attack auc is 0.806, ap is 0.673
+MIA via grad_wrt_w_l2 AUC: the attack auc is 0.807, ap is 0.674
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Loading target model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/all_defense_300
+['epoch', 'model_state_dict', 'opt_state_dict']
+Loading shadow model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/seed1000/shadow
+MIA via correctness, the attack acc is 0.653, with train acc 1.000 and test acc 0.694
+MIA via confidence (pre-class threshold): the attack acc is 0.782
+MIA via entropy (pre-class threshold): the attack acc is 0.761
+MIA via modified entropy (pre-class threshold): the attack acc is 0.790
+MIA via loss (pre-class threshold): the attack acc is 0.782
+MIA via confidence: the attack auc is 0.806, ap is 0.677
+MIA via entropy: the attack auc is 0.801, ap is 0.673
+MIA via modified entropy: the attack auc is 0.807, ap is 0.678
+MIA via loss: the attack auc is 0.806, ap is 0.677
+MIA via grad_wrt_x_l1 ACC (general threshold): the attack acc is 0.810
+MIA via grad_wrt_x_l2 ACC (general threshold): the attack acc is 0.802
+MIA via grad_wrt_w_l1 ACC (general threshold): the attack acc is 0.768
+MIA via grad_wrt_w_l2 ACC (general threshold): the attack acc is 0.760
+MIA via grad_wrt_x_l1 AUC: the attack auc is 0.806, ap is 0.677
+MIA via grad_wrt_x_l2 AUC: the attack auc is 0.805, ap is 0.677
+MIA via grad_wrt_w_l1 AUC: the attack auc is 0.807, ap is 0.678
+MIA via grad_wrt_w_l2 AUC: the attack auc is 0.808, ap is 0.679
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Loading target model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/all_defense_300
+['epoch', 'model_state_dict', 'opt_state_dict']
+Loading shadow model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/seed1000/shadow
+MIA via correctness, the attack acc is 0.653, with train acc 1.000 and test acc 0.694
+MIA via confidence (pre-class threshold): the attack acc is 0.797
+MIA via entropy (pre-class threshold): the attack acc is 0.784
+MIA via modified entropy (pre-class threshold): the attack acc is 0.807
+MIA via loss (pre-class threshold): the attack acc is 0.797
+MIA via confidence: the attack auc is 0.807, ap is 0.674
+MIA via entropy: the attack auc is 0.803, ap is 0.672
+MIA via modified entropy: the attack auc is 0.809, ap is 0.676
+MIA via loss: the attack auc is 0.807, ap is 0.674
+MIA via grad_wrt_x_l1 ACC (general threshold): the attack acc is 0.823
+MIA via grad_wrt_x_l2 ACC (general threshold): the attack acc is 0.814
+MIA via grad_wrt_w_l1 ACC (general threshold): the attack acc is 0.779
+MIA via grad_wrt_w_l2 ACC (general threshold): the attack acc is 0.767
+MIA via grad_wrt_x_l1 AUC: the attack auc is 0.807, ap is 0.675
+MIA via grad_wrt_x_l2 AUC: the attack auc is 0.807, ap is 0.675
+MIA via grad_wrt_w_l1 AUC: the attack auc is 0.809, ap is 0.676
+MIA via grad_wrt_w_l2 AUC: the attack auc is 0.810, ap is 0.677
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Loading target model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/all_defense_300
+['epoch', 'model_state_dict', 'opt_state_dict']
+Loading shadow model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/seed1000/shadow
+MIA via correctness, the attack acc is 0.653, with train acc 1.000 and test acc 0.694
+MIA via confidence (pre-class threshold): the attack acc is 0.797
+MIA via entropy (pre-class threshold): the attack acc is 0.782
+MIA via modified entropy (pre-class threshold): the attack acc is 0.803
+MIA via loss (pre-class threshold): the attack acc is 0.797
+MIA via confidence: the attack auc is 0.808, ap is 0.674
+MIA via entropy: the attack auc is 0.803, ap is 0.670
+MIA via modified entropy: the attack auc is 0.809, ap is 0.675
+MIA via loss: the attack auc is 0.808, ap is 0.674
+MIA via grad_wrt_x_l1 ACC (general threshold): the attack acc is 0.826
+MIA via grad_wrt_x_l2 ACC (general threshold): the attack acc is 0.818
+MIA via grad_wrt_w_l1 ACC (general threshold): the attack acc is 0.786
+MIA via grad_wrt_w_l2 ACC (general threshold): the attack acc is 0.778
+MIA via grad_wrt_x_l1 AUC: the attack auc is 0.807, ap is 0.673
+MIA via grad_wrt_x_l2 AUC: the attack auc is 0.807, ap is 0.673
+MIA via grad_wrt_w_l1 AUC: the attack auc is 0.809, ap is 0.675
+MIA via grad_wrt_w_l2 AUC: the attack auc is 0.810, ap is 0.676
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Loading target model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/all_defense_300
+['epoch', 'model_state_dict', 'opt_state_dict']
+Loading shadow model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/seed1000/shadow
+MIA via correctness, the attack acc is 0.653, with train acc 1.000 and test acc 0.694
+MIA via confidence (pre-class threshold): the attack acc is 0.788
+MIA via entropy (pre-class threshold): the attack acc is 0.765
+MIA via modified entropy (pre-class threshold): the attack acc is 0.790
+MIA via loss (pre-class threshold): the attack acc is 0.788
+MIA via confidence: the attack auc is 0.804, ap is 0.674
+MIA via entropy: the attack auc is 0.799, ap is 0.670
+MIA via modified entropy: the attack auc is 0.806, ap is 0.675
+MIA via loss: the attack auc is 0.804, ap is 0.674
+MIA via grad_wrt_x_l1 ACC (general threshold): the attack acc is 0.805
+MIA via grad_wrt_x_l2 ACC (general threshold): the attack acc is 0.797
+MIA via grad_wrt_w_l1 ACC (general threshold): the attack acc is 0.764
+MIA via grad_wrt_w_l2 ACC (general threshold): the attack acc is 0.753
+MIA via grad_wrt_x_l1 AUC: the attack auc is 0.804, ap is 0.673
+MIA via grad_wrt_x_l2 AUC: the attack auc is 0.804, ap is 0.673
+MIA via grad_wrt_w_l1 AUC: the attack auc is 0.806, ap is 0.674
+MIA via grad_wrt_w_l2 AUC: the attack auc is 0.806, ap is 0.675
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Loading target model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/all_defense_300
+['epoch', 'model_state_dict', 'opt_state_dict']
+Loading shadow model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/seed1000/shadow
+MIA via correctness, the attack acc is 0.653, with train acc 1.000 and test acc 0.694
+MIA via confidence (pre-class threshold): the attack acc is 0.787
+MIA via entropy (pre-class threshold): the attack acc is 0.765
+MIA via modified entropy (pre-class threshold): the attack acc is 0.795
+MIA via loss (pre-class threshold): the attack acc is 0.787
+MIA via confidence: the attack auc is 0.803, ap is 0.672
+MIA via entropy: the attack auc is 0.798, ap is 0.669
+MIA via modified entropy: the attack auc is 0.805, ap is 0.674
+MIA via loss: the attack auc is 0.803, ap is 0.672
+MIA via grad_wrt_x_l1 ACC (general threshold): the attack acc is 0.810
+MIA via grad_wrt_x_l2 ACC (general threshold): the attack acc is 0.794
+MIA via grad_wrt_w_l1 ACC (general threshold): the attack acc is 0.761
+MIA via grad_wrt_w_l2 ACC (general threshold): the attack acc is 0.748
+MIA via grad_wrt_x_l1 AUC: the attack auc is 0.803, ap is 0.673
+MIA via grad_wrt_x_l2 AUC: the attack auc is 0.803, ap is 0.673
+MIA via grad_wrt_w_l1 AUC: the attack auc is 0.805, ap is 0.674
+MIA via grad_wrt_w_l2 AUC: the attack auc is 0.805, ap is 0.675
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Loading target model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/all_defense_300
+['epoch', 'model_state_dict', 'opt_state_dict']
+Loading shadow model from  /data/home/huqiang/DeepCore/RelaxLoss/results/CIFAR10/resnet20/vanilla/seed1000/shadow
+MIA via correctness, the attack acc is 0.653, with train acc 1.000 and test acc 0.694
+MIA via confidence (pre-class threshold): the attack acc is 0.786
+MIA via entropy (pre-class threshold): the attack acc is 0.760
+MIA via modified entropy (pre-class threshold): the attack acc is 0.789
+MIA via loss (pre-class threshold): the attack acc is 0.786
+MIA via confidence: the attack auc is 0.805, ap is 0.671
+MIA via entropy: the attack auc is 0.800, ap is 0.668
+MIA via modified entropy: the attack auc is 0.806, ap is 0.673
+MIA via loss: the attack auc is 0.805, ap is 0.671
+MIA via grad_wrt_x_l1 ACC (general threshold): the attack acc is 0.819
+MIA via grad_wrt_x_l2 ACC (general threshold): the attack acc is 0.806
+MIA via grad_wrt_w_l1 ACC (general threshold): the attack acc is 0.770
+MIA via grad_wrt_w_l2 ACC (general threshold): the attack acc is 0.756
+MIA via grad_wrt_x_l1 AUC: the attack auc is 0.804, ap is 0.671
+MIA via grad_wrt_x_l2 AUC: the attack auc is 0.804, ap is 0.671
+MIA via grad_wrt_w_l1 AUC: the attack auc is 0.806, ap is 0.672
+MIA via grad_wrt_w_l2 AUC: the attack auc is 0.807, ap is 0.673
