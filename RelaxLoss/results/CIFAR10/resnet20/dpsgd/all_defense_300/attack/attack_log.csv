@@ -1,0 +1,18 @@
+name,all_defense_300
+,null
+confidence ACC,0.4995833333333333
+entropy ACC,0.48833333333333334
+modified entropy ACC,0.4995833333333333
+loss ACC,0.4995833333333333
+confidence AUC,0.5061375
+entropy AUC,0.4851166666666667
+modified entropy AUC,0.5072375
+modified entropy AUC,0.5061375
+grad_wrt_x_l1 ACC,0.5004166666666666
+grad_wrt_x_l2 ACC,0.5
+grad_wrt_w_l1 ACC,0.50125
+grad_wrt_w_l2 ACC,0.5020833333333333
+grad_wrt_x_l1 AUC,0.5051180555555556
+grad_wrt_x_l2 AUC,0.5054423611111111
+grad_wrt_w_l1 AUC,0.5087430555555555
+grad_wrt_w_l2 AUC,0.50939375

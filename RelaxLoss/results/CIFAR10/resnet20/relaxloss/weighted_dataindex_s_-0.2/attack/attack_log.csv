@@ -1,0 +1,18 @@
+name,weighted_dataindex_s_-0.2
+,null
+confidence ACC,0.49125
+entropy ACC,0.49291666666666667
+modified entropy ACC,0.49083333333333334
+loss ACC,0.49125
+confidence AUC,0.2612555555555556
+entropy AUC,0.17951944444444443
+modified entropy AUC,0.2696381944444445
+modified entropy AUC,0.2612555555555556
+grad_wrt_x_l1 ACC,0.47458333333333336
+grad_wrt_x_l2 ACC,0.47708333333333336
+grad_wrt_w_l1 ACC,0.47375
+grad_wrt_w_l2 ACC,0.4766666666666667
+grad_wrt_x_l1 AUC,0.6206791666666667
+grad_wrt_x_l2 AUC,0.6249145833333333
+grad_wrt_w_l1 AUC,0.6553749999999999
+grad_wrt_w_l2 AUC,0.6491222222222222
