@@ -45,7 +45,7 @@ def parse_arguments():
     parser.add_argument('--if_data_augmentation', '-aug', type=str2bool, help='If use data augmentation')
     parser.add_argument('--if_onlyeval', type=str2bool, help='If only evaluate the pre-trained model')
     parser.add_argument('--delta', type=float, help='range of the weights')
-    parser.add_argument('--weight_metric', type=str,choices=['index', 'value','index_s','value_s'], help='metric of the weights')
+    parser.add_argument('--weight_metric', type=str,choices=['index', 'value','index_s','value_s','index_t','value_t'], help='metric of the weights')
     return parser
 
 
@@ -145,7 +145,10 @@ class Trainer(CIFARTrainer):
             elif(self.weight_metric=="value_s"):
                 weight = 2*torch.sigmoid(torch.tensor(self.delta*((mean_dists[index]-np.mean(mean_dists)) / np.var(mean_dists))))
             elif(self.weight_metric=="value_t"):
-                weight = (1+torch.tanh((mean_dists[index]-np.mean(mean_dists)) / np.var(mean_dists)))/2
+                weight = 2*(1+torch.tanh(torch.tensor(-self.delta*(mean_dists[index]-np.mean(mean_dists)) / np.var(mean_dists))))/2
+            elif(self.weight_metric=="index_t"):
+                weight = 2*(1+torch.tanh(torch.tensor(self.delta*(2*i-num_examples) / (num_examples))))/2
+            
             self.weights[index] = weight
 
     def train(self, model, optimizer, epoch):
