@@ -143,7 +143,7 @@ class Trainer(CIFARTrainer):
             elif(self.weight_metric=="index_s"):
                 weight = 2*torch.sigmoid(torch.tensor(self.delta*((2*i-num_examples) / (num_examples))))
             elif(self.weight_metric=="value_s"):
-                weight = 2*torch.sigmoid(torch.tensor(self.delta*((mean_dists[index]-np.mean(mean_dists)) / np.var(mean_dists))))
+                weight = 2*torch.sigmoid(torch.tensor(-self.delta*((mean_dists[index]-np.mean(mean_dists)) / np.var(mean_dists))))
             elif(self.weight_metric=="value_t"):
                 weight = 2*(1+torch.tanh(torch.tensor(-self.delta*(mean_dists[index]-np.mean(mean_dists)) / np.var(mean_dists))))/2
             elif(self.weight_metric=="index_t"):
