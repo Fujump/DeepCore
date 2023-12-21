@@ -7,35 +7,35 @@ cd source/cifar/defense/
 # "advreg" "confidence_penalty"
 # "label_smoothing" "relaxloss" "vanilla"     "dpsgd" "dropout" "early_stopping"
 defense_options=("relaxloss")
-delta_options=(-0.3 -0.2 -0.1 0 0.1 0.2 0.3)
-metric_options=("index_s" "value_s")
+delta_options=(0.02 0.05 0.08)
+metric_options=("value_s" "value_t")
 
 # 循环运行脚本
 for metric in "${metric_options[@]}"; do
     for delta in "${delta_options[@]}"; do
         for defense in "${defense_options[@]}"; do
-            CUDA_VISIBLE_DEVICES=5 python "$defense"_m.py -name weighted_data"$metric"_"$delta" --dataset CIFAR10 --model resnet20 --delta "$delta" --weight_metric "$metric"
+            CUDA_VISIBLE_DEVICES=7 python "$defense"_m.py -name weighted_data"$metric"_"$delta" --dataset CIFAR10 --model resnet20 --delta "$delta" --weight_metric "$metric"
         done
     done
 done
 
-> 1204weighted_by_mean_dists_sigmoid.txt
 # 定义多组 coreset 和 defense 参数
 # "Craig" "ContextualDiversity"
 # "early_stopping"  "dpsgd" "relaxloss"   
 # "vanilla" "advreg" "confidence_penalty" "distillation" "dropout" "label_smoothing"
 cd /data/home/huqiang/DeepCore/
+> 1217weighted_by_mean_dists_value_add.txt
 coreset_options=("dists_of_knn")
 defense_options=("relaxloss")
-delta_options=(-0.3 -0.2 -0.1 0 0.1 0.2)
-metric_options=("index_s" "value_s")
+delta_options=(0.02 0.05 0.08)
+metric_options=("value_s" "value_t")
 
 # 循环运行脚本
 for coreset in "${coreset_options[@]}"; do
     for defense in "${defense_options[@]}"; do
         for metric in "${metric_options[@]}"; do
             for delta in "${delta_options[@]}"; do
-                CUDA_VISIBLE_DEVICES=7 python mia_scoring.py --coreset="$coreset" --defense="$defense" --model_name weighted_data"$metric"_"$delta" >> 1204weighted_by_mean_dists_sigmoid.txt
+                python mia_scoring.py --coreset="$coreset" --defense="$defense" --gpu_idx=7 --model_name weighted_data"$metric"_"$delta" >> 1217weighted_by_mean_dists_value_add.txt
             done
         done
     done

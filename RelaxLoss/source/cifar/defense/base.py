@@ -8,7 +8,7 @@ import numpy as np
 import torchvision.transforms as transforms
 
 FILE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_ROOT = os.path.join(FILE_DIR, '../../../data')
+DATA_ROOT = os.path.join(FILE_DIR, '../../../../data')
 sys.path.append(os.path.join(FILE_DIR, '../'))
 sys.path.append(os.path.join(FILE_DIR, '../../'))
 from dataset import CIFAR10, CIFAR100

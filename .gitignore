@@ -1,8 +1,10 @@
-./data/
-./RelaxLoss/results
-./RelaxLoss/data
+data/
+RelaxLoss/results
+RelaxLoss/data
+*.npy
 *.txt
 *.out
 *.log
 *.pt
 *.pkl
+*.pth
